@@ -1,0 +1,16 @@
+div.modal-content {
+    background-color: #14292D30 !important;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+    backdrop-filter: blur(10px);
+    border: solid 1px #16393B !important;
+}
+div.modal-body{
+    width: 100%;
+}
+div .modal-header .btn-close{
+    background-color: white;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
