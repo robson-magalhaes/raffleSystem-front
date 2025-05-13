@@ -1,7 +1,25 @@
-# SISTEMA DE SORTEIOS | React + TypeScript + Vite
+# Front-End - Sistema de Sorteios | React + TypeScript + Vite
 
-Desenvolvi esta plataforma de sorteios online com uma abordagem moderna e automatizada, baseada no modelo SaaS (Software as a Service).
-O sistema permite que os usuários adquiram cotas de sorteios por meio de pagamentos via **PIX**, com todo o processo de validação e sorteio realizado de forma totalmente automática.
-Após a confirmação do pagamento, o sistema realiza o sorteio das cotas e exibe o resultado em tempo real para o comprador, informando imediatamente se a cota foi premiada.
+Este é o front-end da plataforma de sorteios online, desenvolvida com **React**, **TypeScript** e **Vite**, seguindo o modelo SaaS (Software as a Service). O sistema foi projetado para oferecer uma experiência fluida e intuitiva ao usuário final.
 
-A plataforma está integrada a uma **API** também desenvolvida por mim, disponível em outro repositório neste mesmo perfil do GitHub.
+## Funcionalidades
+
+- Exibição de sorteios disponíveis
+- Compra de cotas com pagamento via **PIX**
+- Acompanhamento em tempo real do status da cota
+- Notificação imediata sobre resultado (cota premiada ou não)
+- Integração completa com a API back-end (também disponível neste perfil)
+
+## Tecnologias utilizadas
+
+- React
+- TypeScript
+- Vite
+- Axios (para comunicação com a API)
+- Styled Components / Tailwind CSS
+- Context API / Redux
+
+## Observações
+
+Este front-end consome os dados da API que também desenvolvi, disponível no repositório:  
+👉 [API - Sistema de Sorteios](https://github.com/robson-magalhaes/raffleSystem-back)
