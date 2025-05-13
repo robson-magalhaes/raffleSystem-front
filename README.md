@@ -1,30 +1,7 @@
-# React + TypeScript + Vite
+# SISTEMA DE SORTEIOS | React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desenvolvi esta plataforma de sorteios online com uma abordagem moderna e automatizada, baseada no modelo SaaS (Software as a Service).
+O sistema permite que os usuários adquiram cotas de sorteios por meio de pagamentos via **PIX**, com todo o processo de validação e sorteio realizado de forma totalmente automática.
+Após a confirmação do pagamento, o sistema realiza o sorteio das cotas e exibe o resultado em tempo real para o comprador, informando imediatamente se a cota foi premiada.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+A plataforma está integrada a uma **API** também desenvolvida por mim, disponível em outro repositório neste mesmo perfil do GitHub.
