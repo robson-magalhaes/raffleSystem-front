@@ -19,7 +19,7 @@ export const addBalance = (id: number, balance: number) => {
     return
 }
 export const GainPayment = async (userId: number, valor: number) => {
-    let idEnvio = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';;
+    let idEnvio = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let result = '';
     for (let i = 0; i < 20; i++) {
         result += idEnvio.charAt(Math.floor(Math.random() * idEnvio.length));
