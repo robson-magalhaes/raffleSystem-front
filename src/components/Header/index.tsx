@@ -66,14 +66,14 @@ const NavBar: React.FC<Props> = ({ activated }:Props) => {
 
                 <NavDropdown
                     id="dropdown-basic-button"
-                    title="Paginas de venda"
+                    title="Compartilhe"
                     align="start"
                 >
                     <Dropdown.Item as="a" href={`/${Ctx?.userId}/buy_raffle_only`} target="_blank" rel="noopener noreferrer">
-                        Sorteio por prêmio
+                        Modo prêmio selecionado
                     </Dropdown.Item>
                     <Dropdown.Item as="a" href={`/${Ctx?.userId}/buy_quota`} target="_blank" rel="noopener noreferrer">
-                        Sorteio por Campanha
+                        Modo Campanha
                     </Dropdown.Item>
                 </NavDropdown>
 
