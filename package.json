@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "start": "serve -s dist"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
@@ -28,6 +29,7 @@
     "redux": "^5.0.1",
     "remove": "^0.1.5",
     "save": "^2.9.0",
+    "serve": "^14.2.4",
     "styled-components": "^6.1.11",
     "tailwindcss": "^3.4.4",
     "uuid": "^10.0.0"
